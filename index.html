@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+</head>
+<body>
+    <div class="soundboard">
+        <h1>MI 349 Soundboard</h1>
+        <ul class="buttons">
+            <li>
+                <input type="image" src="bicycle.png" alt="bicycle bell" onclick="play('bicycle')">
+                <audio id="bicycle" src="bicycle_bell.wav"></audio>
+            </li>
+            <li>
+                <input type="image" src="thunder.png" alt="thunder" onclick="play('thunder')">
+                <audio id="thunder" src="thunder2.wav"></audio>
+            </li>
+            <li>
+                <input type="image" src="trumpet.png" alt="trumpet" onclick="play('trumpet')">
+                <audio id="trumpet" src="trumpet_x.wav"></audio>
+            </li>
+        </ul>
+    </div>
+    <script src="soundboard.js"></script>
+    
+</body>
+</html>
